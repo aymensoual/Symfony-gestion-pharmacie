@@ -1,0 +1,58 @@
+{% extends "CatalogueBundle::layout.html.twig" %}
+
+
+{% block title %}CatalogueBundle:Fournisseur:index{% endblock %}
+
+{% block body %}
+    <!-- DataTables Example -->
+    <div class="card mb-3">
+        <div class="card-header">
+            <i class="fas fa-table"></i>
+            Gestion Fournisseurs</div>
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+
+
+
+
+                    <thead>
+                        <tr>
+                            <th>Code Fournisseur</th>
+                            <th>Nom Fournisseur</th>
+                            <th>Prenom Fournisseur</th>
+                            <th>Telephone Fournisseur</th>
+                            <th>Adresse Fournisseur</th>
+                            <th>Remarque</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for fournisseur in fournisseur %}
+
+                            <tr>
+                                <td>{{fournisseur.code}}</td>
+                                <td>{{fournisseur.nom}}</td>
+                                <td>{{fournisseur.prenom}}</td>
+                                <td>{{fournisseur.telephone}}</td>
+                                <td>{{fournisseur.adresse}}</td>
+                                <td>{{fournisseur.remarque}}</td>
+                                <td>  <a  href="{{path('edit4',{'token': fournisseur.token})}}" type="a" class="btn btn-outline-success btn-rounded waves-effect">Update </a>&nbsp &nbsp &nbsp
+
+                                    <a href="{{path('delete4',{'token': fournisseur.token})}}" type="a" class="btn btn-outline-danger btn-rounded waves-effect">Delete</a></td>
+
+                            </tr>
+                        {% endfor %}
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="card-footer small text-muted">Updated yesterday at 11:59 PM</div>
+
+    </div>
+
+{% endblock %}
+
+
+

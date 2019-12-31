@@ -1,0 +1,20 @@
+user_homepage:
+    path:     /
+    defaults: { _controller: UserBundle:Default:index }
+
+index2:
+    path:     /index
+    defaults: { _controller: UserBundle:User:index }
+
+enabled2:
+    path:     /enabled{token}
+    defaults: { _controller: UserBundle:User:enabled }
+
+delete2:
+    path:     /delete/{token}
+    defaults: { _controller: UserBundle:User:delete }
+
+
+role2:
+    path:     /role/{token}
+    defaults: { _controller: UserBundle:User:role }

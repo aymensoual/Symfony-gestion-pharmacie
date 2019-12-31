@@ -1,0 +1,56 @@
+{% extends "CatalogueBundle::layout.html.twig" %}
+
+
+{% block title %}CatalogueBundle:Medicament:index{% endblock %}
+
+{% block body %}
+    <!-- DataTables Example -->
+    <div class="card mb-3">
+        <div class="card-header">
+            <i class="fas fa-table"></i>
+            Gestion Medicaments</div>
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                    <thead>
+                        <tr>
+                            <th>Code Medicament</th>
+                            <th>Designation</th>
+                            <th>Prix de Vente</th>
+                            <th>Date d'expiration</th>
+                            <th>Quantité</th>
+                            <th>Photos</th>
+                            <th>Action</th>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for medicament in medicament %}
+
+                            <tr>
+                                <td>{{medicament.code}}</td>
+                                <td>{{medicament.designation}}</td>
+                                <td>{{medicament.prix}}</td>
+                                <td>{{medicament.date}}</td>
+                                <td>{{medicament.qtn}}</td>
+                                <td><img src="{{asset(medicament.media.WebPath)}}"width="250"heigth="150"> </td>
+
+                                <td>  <a  href="{{path('edit1',{'token': medicament.token})}}" type="a" class="btn btn-outline-success btn-rounded waves-effect">Update</a>&nbsp &nbsp &nbsp
+
+                                    <a href="{{path('delete1',{'token': medicament.token})}}" type="a" class="btn btn-outline-danger btn-rounded waves-effect">Delete</a></td>
+
+                            </tr>
+                        {% endfor %}
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+    </div>
+    <div class="card-footer small text-muted">Updated yesterday at 11:59 PM</div>
+
+{% endblock %}
+
+
+

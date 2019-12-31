@@ -1,0 +1,25 @@
+medicament_homepage:
+    path:     /
+    defaults: { _controller: CatalogueBundle:Default:index }
+
+index1:
+    path:     /index1
+    defaults: { _controller: CatalogueBundle:Medicament:index }
+
+new1:
+    path:     /new1
+    defaults: { _controller: CatalogueBundle:Medicament:new }
+
+edit1:
+    path:     /edit1/{token}
+    defaults: { _controller: CatalogueBundle:Medicament:edit }
+
+delete1:
+    path:     /delete1/{token}
+    defaults: { _controller: CatalogueBundle:Medicament:delete }
+    
+    
+recherche1:
+    path:     /recherche1/
+    defaults: { _controller: CatalogueBundle:Medicament:recherche }
+
