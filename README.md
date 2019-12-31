@@ -1,10 +1,9 @@
 
 
-<h1 align="center">Beledia</h1>
+<h1 align="center"> Gestion de pharmacie Symfony </h1>
 
-# Gestion de pharmacie Symfony 
 
-gestion de pharmacie.
+
 
 samfony 2.8, Fosuserbundle, Foscommentbundle, HTML5, CSS, Javascript, Boostrap ,Mysql
 
