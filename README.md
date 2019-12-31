@@ -1,69 +1,62 @@
-Symfony Standard Edition
-========================
 
-Welcome to the Symfony Standard Edition - a fully-functional Symfony
-application that you can use as the skeleton for your new applications.
 
-For details on how to download and get started with Symfony, see the
-[Installation][1] chapter of the Symfony Documentation.
+<h1 align="center">Beledia</h1>
 
-What's inside?
---------------
+# Gestion de pharmacie Symfony 
 
-The Symfony Standard Edition is configured with the following defaults:
+gestion de pharmacie.
 
-  * An AppBundle you can use to start coding;
+samfony 2.8, Fosuserbundle, Foscommentbundle, HTML5, CSS, Javascript, Boostrap ,Mysql
 
-  * Twig as the only configured template engine;
 
-  * Doctrine ORM/DBAL;
 
-  * Swiftmailer;
 
-  * Annotations enabled for everything.
+  <img src="https://i.ibb.co/0Y0sXmq/1.jpgg" width="200">
+ 
+  <img src="https://i.ibb.co/xH63PL2/2.jpg" width="200">
 
-It comes pre-configured with the following bundles:
+  <img src="https://i.ibb.co/bRmc94R/3.jpg" width="200">
 
-  * **FrameworkBundle** - The core Symfony framework bundle
+  <img src="https://i.ibb.co/Rj1Sxzh/4.jpg" width="200">
 
-  * [**SensioFrameworkExtraBundle**][6] - Adds several enhancements, including
-    template and routing annotation capability
+  <img src="https://i.ibb.co/qFC1WfN/5.jpg" width="200">
 
-  * [**DoctrineBundle**][7] - Adds support for the Doctrine ORM
+  <img src="https://i.ibb.co/3NFGMLK/6.jpg" width="200">
 
-  * [**TwigBundle**][8] - Adds support for the Twig templating engine
+  <img src="https://i.ibb.co/Tk7rmnX/8.jpg" width="200">
 
-  * [**SecurityBundle**][9] - Adds security by integrating Symfony's security
-    component
+  <img src="https://i.ibb.co/47G7zGq/9.jpg" width="200">
 
-  * [**SwiftmailerBundle**][10] - Adds support for Swiftmailer, a library for
-    sending emails
+  <img src="https://i.ibb.co/Fwc1cL2/10.jpg" width="200">
+  
+  <img src="https://i.ibb.co/wd12h7L/11.jpg.jpg" width="200">
+  
+  <img src="https://i.ibb.co/DMB9WW0/12.jpg" width="200">
+  
+  <img src="https://i.ibb.co/5kN2hSY/13.jpg.jpg" width="200">
 
-  * [**MonologBundle**][11] - Adds support for Monolog, a logging library
 
-  * **WebProfilerBundle** (in dev/test env) - Adds profiling functionality and
-    the web debug toolbar
 
-  * **SensioDistributionBundle** (in dev/test env) - Adds functionality for
-    configuring and working with Symfony distributions
 
-  * [**SensioGeneratorBundle**][13] (in dev/test env) - Adds code generation
-    capabilities
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   
+   
+   
+   
 
-  * **DebugBundle** (in dev/test env) - Adds Debug and VarDumper component
-    integration
+  
 
-All libraries and bundles included in the Symfony Standard Edition are
-released under the MIT or BSD license.
 
-Enjoy!
-
-[1]:  https://symfony.com/doc/2.8/setup.html
-[6]:  https://symfony.com/doc/current/bundles/SensioFrameworkExtraBundle/index.html
-[7]:  https://symfony.com/doc/2.8/doctrine.html
-[8]:  https://symfony.com/doc/2.8/templating.html
-[9]:  https://symfony.com/doc/2.8/security.html
-[10]: https://symfony.com/doc/2.8/email.html
-[11]: https://symfony.com/doc/2.8/logging.html
-[12]: https://symfony.com/doc/2.8/assetic/asset_management.html
-[13]: https://symfony.com/doc/current/bundles/SensioGeneratorBundle/index.html
