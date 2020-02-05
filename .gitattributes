@@ -1,4 +1,2 @@
-# Example of a `.gitattributes` file which reclassifies `.rb` files as Java:
-*.rb linguist-language=PHP
-*.rb linguist-language=php
-*.rb linguist-language=Php
+# to change language of repo from Javascript to Python
+    *.css linguist-language=Php
