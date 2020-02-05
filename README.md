@@ -4,9 +4,14 @@
 
 
 
-
-samfony 2.8, Fosuserbundle, Foscommentbundle, HTML5, CSS, Javascript, Boostrap ,Mysql
-
+       * samfony 3.4
+       * Fosuserbundle
+       * Foscommentbundle
+       * HTML5
+       * CSS
+       * Javascript
+       * Boostrap
+       * Mysql
 
 
 
