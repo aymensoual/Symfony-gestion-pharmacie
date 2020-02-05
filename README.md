@@ -4,7 +4,7 @@
 
 
 
-       * samfony 3.4
+       * Symfony 3.4
        * Fosuserbundle
        * Foscommentbundle
        * HTML5
