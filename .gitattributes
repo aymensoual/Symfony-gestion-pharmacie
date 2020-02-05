@@ -1,2 +1,4 @@
-* linguist-vendored
-*.php linguist-vendored=false
+# Example of a `.gitattributes` file which reclassifies `.rb` files as Java:
+*.rb linguist-language=Php
+*.rb linguist-language=PHP
+*.rb linguist-language=php
