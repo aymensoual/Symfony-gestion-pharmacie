@@ -1,2 +1,2 @@
-# to change language of repo from Javascript to Python
-    *.php linguist-language=Php
+# Example of a `.gitattributes` file which reclassifies `.rb` files as Java:
+*.rb linguist-language=PHP
